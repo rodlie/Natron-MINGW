@@ -196,6 +196,7 @@ mingw-w64-libzip
 mingw-w64-libjpeg-turbo
 mingw-w64-giflib
 mingw-w64-libpng
+mingw-w64-libtiff
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
