@@ -211,6 +211,9 @@ mingw-w64-fribidi
 mingw-w64-pango
 mingw-w64-gdk-pixbuf2
 mingw-w64-librsvg
+mingw-w64-openh264
+mingw-w64-x265
+mingw-w64-x264-git
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
