@@ -201,6 +201,8 @@ mingw-w64-lcms2
 mingw-w64-libwebp
 mingw-w64-lzo2
 mingw-w64-jasper
+mingw-w64-ninja
+mingw-w64-meson
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
