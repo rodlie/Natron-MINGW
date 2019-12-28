@@ -205,6 +205,8 @@ mingw-w64-ninja
 mingw-w64-meson
 mingw-w64-pixman
 mingw-w64-cairo
+mingw-w64-libdatrie
+mingw-w64-libthai
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
