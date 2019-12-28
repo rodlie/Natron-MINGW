@@ -182,3 +182,24 @@ mingw-w64-x86_64-python2-enum34 \
 mingw-w64-x86_64-python2-pytest \
 mingw-w64-x86_64-python3-pytest
 ```
+
+## Upgrade core packages
+
+```
+CWD=`pwd`
+PKGS="
+mingw-w64-zlib
+mingw-w64-bzip2
+mingw-w64-xz
+mingw-w64-openssl10
+mingw-w64-curl
+mingw-w64-libzip
+mingw-w64-libjpeg-turbo
+mingw-w64-giflib
+"
+for pkg in $PKGS; do
+cd $CWD/$pkg
+sh $CWD/makepkg.sh
+pacman -U mingw-w64-*pkg.tar.xz
+done
+```
