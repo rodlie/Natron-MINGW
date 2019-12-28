@@ -203,6 +203,8 @@ mingw-w64-lzo2
 mingw-w64-jasper
 mingw-w64-ninja
 mingw-w64-meson
+mingw-w64-pixman
+mingw-w64-cairo
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
