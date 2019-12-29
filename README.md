@@ -231,6 +231,7 @@ mingw-w64-gnutls
 mingw-w64-nghttp2
 mingw-w64-curl
 mingw-w64-libraw-gpl2
+mingw-w64-ffmpeg-gpl2
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
