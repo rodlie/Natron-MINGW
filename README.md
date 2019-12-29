@@ -219,6 +219,7 @@ mingw-w64-libvpx
 mingw-w64-librevenge
 mingw-w64-libcdr
 mingw-w64-libmng
+mingw-w64-openexr
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
