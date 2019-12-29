@@ -1,4 +1,4 @@
-# Natron on Windows
+# Natron on Windows (DRAFT)
 
 The following are instructions for building Natron (and the plug-ins) on Windows. Please follow the instructions exactly as described.
 
@@ -45,6 +45,7 @@ yasm \
 nasm \
 python2-pip \
 setconf \
+texinfo \
 mingw-w64-x86_64-binutils \
 mingw-w64-x86_64-crt-git \
 mingw-w64-x86_64-gcc \
@@ -179,7 +180,8 @@ mingw-w64-x86_64-python2-sphinx_rtd_theme \
 mingw-w64-x86_64-python2-mock \
 mingw-w64-x86_64-python2-enum34 \
 mingw-w64-x86_64-python2-pytest \
-mingw-w64-x86_64-python3-pytest
+mingw-w64-x86_64-python3-pytest \
+mingw-w64-x86_64-jemalloc
 ```
 
 ## Build additional packages
@@ -191,7 +193,6 @@ mingw-w64-zlib
 mingw-w64-bzip2
 mingw-w64-xz
 mingw-w64-openssl10
-mingw-w64-curl
 mingw-w64-libzip
 mingw-w64-libjpeg-turbo
 mingw-w64-giflib
@@ -225,6 +226,10 @@ mingw-w64-srt
 mingw-w64-sqlite3
 mingw-w64-nspr
 mingw-w64-nss
+mingw-w64-nettle
+mingw-w64-gnutls
+mingw-w64-nghttp2
+mingw-w64-curl
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
