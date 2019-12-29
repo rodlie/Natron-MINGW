@@ -214,6 +214,8 @@ mingw-w64-librsvg
 mingw-w64-openh264
 mingw-w64-x265
 mingw-w64-x264-git
+mingw-w64-openjpeg2
+mingw-w64-libvpx
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
