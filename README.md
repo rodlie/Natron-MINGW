@@ -1,12 +1,14 @@
-# Natron on Windows (DRAFT)
+# Natron Windows SDK (DRAFT)
 
-The following are instructions for building Natron (and the plug-ins) on Windows. Please follow the instructions exactly as described.
+The following are instructions for installing the Natron SDK on Windows. Please follow the instructions exactly as described.
 
 ## Install MSYS2
 
+First you need to download a MSYS2 snapshot, only ``20180531`` is supported.
+
 * Download and extract http://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20180531.tar.xz, then move the ``msys64`` folder to ``C:\msys64-20180531``
 * Run ``C:\msys64-20180531\mingw64.exe``
-* On first run MSYS2 will setup your installation, when prompted close the terminal
+* When prompted close the terminal
 
 Now start ``C:\msys64-20180531\mingw64.exe`` again and run the following command:
 
@@ -184,7 +186,19 @@ mingw-w64-x86_64-python3-pytest \
 mingw-w64-x86_64-jemalloc
 ```
 
-## Build additional packages
+Note that some packages might not be available from MSYS2 when you read this, you can download all the packages in one archive here (TODO, ADD LINK) then copy them to ``/var/cache/pacman/pkg`` and run the command above again.
+
+## Additional packages
+
+Several packages needs to be added or updated. You can build them yourself or install from binary packages.
+
+## Install
+
+TODO link to packages here.
+
+## Build
+
+You will need to build and install the following packages (in the correct order):
 
 ```
 CWD=`pwd`
