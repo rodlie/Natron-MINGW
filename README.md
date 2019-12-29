@@ -218,6 +218,7 @@ mingw-w64-openjpeg2
 mingw-w64-libvpx
 mingw-w64-librevenge
 mingw-w64-libcdr
+mingw-w64-libmng
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
