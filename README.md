@@ -252,6 +252,9 @@ mingw-w64-cmake
 mingw-w64-poppler
 mingw-w64-opencolorio-git
 mingw-w64-openimageio2
+mingw-w64-python2-sphinx
+mingw-w64-python-sphinx_rtd_theme
+mingw-w64-python-sphinx-alabaster-theme
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
