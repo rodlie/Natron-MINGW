@@ -251,6 +251,7 @@ mingw-w64-libarchive
 mingw-w64-cmake
 mingw-w64-poppler
 mingw-w64-opencolorio-git
+mingw-w64-openimageio2
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
