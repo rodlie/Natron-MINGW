@@ -247,6 +247,9 @@ mingw-w64-curl
 mingw-w64-libraw-gpl2
 mingw-w64-ffmpeg-gpl2
 mingw-w64-imagemagick
+mingw-w64-libarchive
+mingw-w64-cmake
+mingw-w64-poppler
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
