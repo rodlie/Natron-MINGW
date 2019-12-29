@@ -223,6 +223,8 @@ mingw-w64-openexr
 mingw-w64-aom
 mingw-w64-srt
 mingw-w64-sqlite3
+mingw-w64-nspr
+mingw-w64-nss
 "
 for pkg in $PKGS; do
 cd $CWD/$pkg
