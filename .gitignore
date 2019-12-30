@@ -16,3 +16,7 @@
 /*/*-git/
 /*/*-svn/
 /*/*-hg/
+aom
+google-breakpad
+seexpr
+x264
